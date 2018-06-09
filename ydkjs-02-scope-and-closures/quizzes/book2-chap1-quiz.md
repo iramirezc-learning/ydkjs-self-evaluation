@@ -1,6 +1,6 @@
 # Quiz - YDKJS: Scope & Closures 1/5
 
-## Chapter 1. What is Scope?
+## Chapter 1: What is Scope?
 
 ### Self-Evaluation
 
