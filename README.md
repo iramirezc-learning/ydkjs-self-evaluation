@@ -14,6 +14,8 @@ Feel free to use these quizzes to self-test your learning.
 
 ### Chap2. Into JavaScript
 
+:pencil2: [quiz](ydkjs-01-up-and-going/quizzes/book1-chap2-quiz.md) :eyes: [answers](ydkjs-01-up-and-going/quizzes/book1-chap2-quiz.answers.md)
+
 ### Chap3. Into YDKJS
 
 ## 02 - Scope & Closures
