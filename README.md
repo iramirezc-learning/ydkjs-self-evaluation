@@ -18,6 +18,8 @@ Feel free to use these quizzes to self-test your learning.
 
 ### Chap3. Into YDKJS
 
+:pencil2: [quiz](ydkjs-01-up-and-going/quizzes/book1-chap3-quiz.md) :eyes: [answers](ydkjs-01-up-and-going/quizzes/book1-chap3-quiz.answers.md)
+
 ## 02 - Scope & Closures
 
 ### Chap1. What is Scope?
