@@ -338,7 +338,7 @@ Boolean(NaN);
 Boolean(Infinity);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #32
 
@@ -1004,7 +1004,7 @@ var square = function square (number) {
 };
 ```
 
-##### 23. What's an `IIFE`? Give an example
+##### 23. What's an `IIFE`? Give an example.
 
 > _an **I**mmediately **I**nvoked **F**unction **E**xpression_
 >
