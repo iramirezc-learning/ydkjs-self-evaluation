@@ -1,6 +1,6 @@
 # Resources - YDKJS: Up & Going
 
-External resources recommended in the book
+External resources recommended in the book.
 
 ## Chapter 1. Into Programming
 
@@ -14,3 +14,7 @@ External resources recommended in the book
 * https://github.com/es-shims/es6-shim
 * https://babeljs.io/
 * https://github.com/google/traceur-compiler
+
+## Chapter 3. Into YDKJS
+
+* None
