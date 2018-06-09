@@ -1,6 +1,6 @@
 # Quiz - YDKJS: Up & Going 2/3
 
-## Chapter 2. Into JavaScript
+## Chapter 2: Into JavaScript
 
 ### Answer Sheet
 
@@ -8,7 +8,7 @@
 
 ---
 
-##### Name the 7 built-in types available in JavaScript
+##### 1. Name the 7 built-in types available in JavaScript.
 
 > `undefined`
 >
@@ -24,13 +24,13 @@
 >
 > `function`
 
-##### Name the two ways to access object properties
+##### 2. Name the two ways to access object properties.
 
-> dot notation `.`
+> _dot notation `.`_
 >
-> brackets notation `[]`
+> _brackets notation `[]`_
 
-##### Typeof. Look at the following snippets and write what would be the ouput
+##### 3. Typeof. Look at the following snippets and write what would be the ouput.
 
 ###### Snippet #1
 
@@ -39,7 +39,7 @@ console.log(typeof a);
 var a;
 ```
 
-> "undefined"
+> _"undefined"_
 
 ###### Snippet #2
 
@@ -47,7 +47,7 @@ var a;
 console.log(typeof "hello world");
 ```
 
-> "string"
+> _"string"_
 
 ###### Snippet #3
 
@@ -55,7 +55,7 @@ console.log(typeof "hello world");
 console.log(typeof false);
 ```
 
-> "boolean"
+> _"boolean"_
 
 ###### Snippet #4
 
@@ -63,7 +63,7 @@ console.log(typeof false);
 console.log(typeof 21);
 ```
 
-> "number"
+> _"number"_
 
 ###### Snippet #5
 
@@ -71,7 +71,7 @@ console.log(typeof 21);
 console.log(typeof null);
 ```
 
-> "object"
+> _"object"_
 
 ###### Snippet #6
 
@@ -79,7 +79,7 @@ console.log(typeof null);
 console.log(typeof undefined);
 ```
 
-> "undefined"
+> _"undefined"_
 
 ###### Snippet #7
 
@@ -87,7 +87,7 @@ console.log(typeof undefined);
 console.log(typeof { name: "John" });
 ```
 
-> "object"
+> _"object"_
 
 ###### Snippet #8
 
@@ -95,7 +95,7 @@ console.log(typeof { name: "John" });
 console.log(typeof typeof 42);
 ```
 
-> "string"
+> _"string"_
 
 ###### Snippet #9
 
@@ -103,7 +103,7 @@ console.log(typeof typeof 42);
 console.log(typeof 3.1416);
 ```
 
-> "number"
+> _"number"_
 
 ###### Snippet #10
 
@@ -111,7 +111,7 @@ console.log(typeof 3.1416);
 console.log(typeof "10");
 ```
 
-> "string"
+> _"string"_
 
 ###### Snippet #11
 
@@ -126,9 +126,11 @@ console.log(typeof person.age);
 console.log(typeof person.lastName);
 ```
 
-> "string"
-> "number"
-> "undefined"
+> _"string"_
+>
+> _"number"_
+>
+> _"undefined"_
 
 ###### Snippet #12
 
@@ -136,7 +138,7 @@ console.log(typeof person.lastName);
 console.log(typeof []);
 ```
 
-> "object"
+> _"object"_
 
 ###### Snippet #13
 
@@ -144,7 +146,7 @@ console.log(typeof []);
 console.log(typeof ["Hello", 20, true][2]);
 ```
 
-> "boolean"
+> _"boolean"_
 
 ###### Snippet #14
 
@@ -152,7 +154,7 @@ console.log(typeof ["Hello", 20, true][2]);
 console.log(typeof ["Hello", 20, true][3]);
 ```
 
-> "undefined"
+> _"undefined"_
 
 ###### Snippet #15
 
@@ -160,7 +162,7 @@ console.log(typeof ["Hello", 20, true][3]);
 console.log(typeof { a: 2 }["a"]);
 ```
 
-> "number"
+> _"number"_
 
 ###### Snippet #16
 
@@ -169,7 +171,7 @@ var index = "c";
 console.log({ a: 1, b: 2, c: 3 }[index]);
 ```
 
-> 3
+> _3_
 
 ###### Snippet #17
 
@@ -177,7 +179,7 @@ console.log({ a: 1, b: 2, c: 3 }[index]);
 console.log({ x: 100, y: 200 }.x);
 ```
 
-> 100
+> _100_
 
 ###### Snippet #18
 
@@ -193,9 +195,11 @@ console.log(typeof getX({ x: 34, y: 54 }));
 console.log(typeof getX.PI);
 ```
 
-> "function"
-> "number"
-> "string"
+> _"function"_
+>
+> _"number"_
+>
+> _"string"_
 
 ###### Snippet #19
 
@@ -205,8 +209,9 @@ console.log(typeof n);
 console.log(typeof Number(n));
 ```
 
-> "string"
-> "number"
+> _"string"_
+>
+> _"number"_
 
 ###### Snippet #20
 
@@ -215,9 +220,9 @@ var n = "47";
 console.log(typeof (n * 2));
 ```
 
-> "number"
+> _"number"_
 
-##### Coercion. Label the following code snippets with `explicit` or `implicit` accordingly
+##### 4. Coercion. Label the following code snippets with `explicit` or `implicit` accordingly.
 
 ###### Snippet #21
 
@@ -228,7 +233,7 @@ console.log(a); // "13"
 console.log(b); // 26
 ```
 
-> `implicit`
+> _`implicit`_
 
 ###### Snippet #22
 
@@ -239,21 +244,21 @@ console.log(a); // "13"
 console.log(b); // 13
 ```
 
-> `explicit`
+> _`explicit`_
 
-##### List the `falsy` values in JS
+##### 5. List the `falsy` values in JS.
 
-> `""` or `''` Empty string
+> _`""` or `''` empty string_
 >
-> `0`, `-0`, `NaN` Zero, -Zero, Not a Number
+> _`0`, `-0`, `NaN` zero, -zero, not a number_
 >
-> `null` Object
+> _`null` object_
 >
-> `undefined` Undefined
+> _`undefined` undefined_
 >
-> `false` Boolean
+> _`false` boolean_
 
-##### Boolean Coercion. Write the result `true` or `false` for the following snippets
+##### 6. Boolean Coercion. Write the result `true` or `false` for the following snippets.
 
 ###### Snippet #23
 
@@ -261,7 +266,7 @@ console.log(b); // 13
 Boolean('');
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #24
 
@@ -269,7 +274,7 @@ Boolean('');
 Boolean('.');
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #25
 
@@ -277,7 +282,7 @@ Boolean('.');
 Boolean("");
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #26
 
@@ -285,7 +290,7 @@ Boolean("");
 Boolean(0);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #26-2
 
@@ -293,7 +298,7 @@ Boolean(0);
 Boolean("0");
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #27
 
@@ -301,7 +306,7 @@ Boolean("0");
 Boolean(1);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #28
 
@@ -309,7 +314,7 @@ Boolean(1);
 Boolean(1/0);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #29
 
@@ -317,7 +322,7 @@ Boolean(1/0);
 Boolean(0/1);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #30
 
@@ -325,7 +330,7 @@ Boolean(0/1);
 Boolean(NaN);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #31
 
@@ -341,7 +346,7 @@ Boolean(Infinity);
 Boolean(0 + "0");
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #33
 
@@ -349,7 +354,7 @@ Boolean(0 + "0");
 Boolean("0" + 0);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #34
 
@@ -357,7 +362,7 @@ Boolean("0" + 0);
 Boolean("0" * 1);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #35
 
@@ -365,7 +370,7 @@ Boolean("0" * 1);
 Boolean(1 * "0");
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #36
 
@@ -373,7 +378,7 @@ Boolean(1 * "0");
 Boolean(-1 * 0);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #37
 
@@ -381,7 +386,7 @@ Boolean(-1 * 0);
 Boolean(null);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #38
 
@@ -389,7 +394,7 @@ Boolean(null);
 Boolean(undefined);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #39
 
@@ -397,7 +402,7 @@ Boolean(undefined);
 Boolean(false);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #40
 
@@ -405,7 +410,7 @@ Boolean(false);
 Boolean(true);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #41
 
@@ -413,7 +418,7 @@ Boolean(true);
 Boolean([]);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #42
 
@@ -421,7 +426,7 @@ Boolean([]);
 Boolean([1, 2, 3]);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #43
 
@@ -429,7 +434,7 @@ Boolean([1, 2, 3]);
 Boolean([0].toString());
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #43-2
 
@@ -437,7 +442,7 @@ Boolean([0].toString());
 Boolean([1, '', {}][1]);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #43-3
 
@@ -445,7 +450,7 @@ Boolean([1, '', {}][1]);
 Boolean([1, '', { n: 0 }][2].n);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #44
 
@@ -453,7 +458,7 @@ Boolean([1, '', { n: 0 }][2].n);
 Boolean([].toString());
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #45
 
@@ -461,7 +466,7 @@ Boolean([].toString());
 Boolean({});
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #45-2
 
@@ -469,7 +474,7 @@ Boolean({});
 Boolean({}.toString());
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #46
 
@@ -477,7 +482,7 @@ Boolean({}.toString());
 Boolean({ name: "Doe" });
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #47
 
@@ -487,7 +492,7 @@ Boolean({ toString: function () {
 }}.toString());
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #48
 
@@ -495,7 +500,7 @@ Boolean({ toString: function () {
 Boolean({ number: 0 }.number);
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #49
 
@@ -503,7 +508,7 @@ Boolean({ number: 0 }.number);
 Boolean({ char: 'a' }.char);
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #50
 
@@ -511,25 +516,25 @@ Boolean({ char: 'a' }.char);
 Boolean(function noop() {});
 ```
 
-> `true`
+> _`true`_
 
-##### operator that checks for value equality with coercion allowed
+##### 7. Operator that checks for value equality with coercion allowed:
 
-> `==`
+> _`==`_
 
-##### operator that checks for value equality without allowing coercion
+##### 8. Operator that checks for value equality without allowing coercion:
 
-> `===`
+> _`===`_
 
-##### operator that checks for value non-equality with coercion allowed
+##### 9. Operator that checks for value non-equality with coercion allowed:
 
-> `!=`
+> _`!=`_
 
-##### operator that checks for value non-equality without allowing coercion
+##### 10. Operator that checks for value non-equality without allowing coercion:
 
-> `!==`
+> _`!==`_
 
-##### Equality Coercion. Write the result `true` or `false` for the following snippets
+##### 11. Equality Coercion. Write the result `true` or `false` for the following snippets:
 
 ###### Snippet #51
 
@@ -537,7 +542,7 @@ Boolean(function noop() {});
 "12" == 12;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #51-2
 
@@ -545,7 +550,7 @@ Boolean(function noop() {});
 12 === "12";
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #52
 
@@ -553,7 +558,7 @@ Boolean(function noop() {});
 1 == true;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #52-2
 
@@ -561,7 +566,7 @@ Boolean(function noop() {});
 true === 1;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #53
 
@@ -569,7 +574,7 @@ true === 1;
 false == 0;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #54
 
@@ -577,7 +582,7 @@ false == 0;
 false == "false";
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #55
 
@@ -585,7 +590,7 @@ false == "false";
 "" == false;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #56
 
@@ -593,7 +598,7 @@ false == "false";
 null == false;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #57
 
@@ -601,7 +606,7 @@ null == false;
 undefined == null;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #58
 
@@ -609,7 +614,7 @@ undefined == null;
 false == undefined;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #59
 
@@ -617,7 +622,7 @@ false == undefined;
 0 == "";
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #60
 
@@ -625,7 +630,7 @@ false == undefined;
 0 == null;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #61
 
@@ -634,7 +639,7 @@ var a;
 a == null;
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #62
 
@@ -642,7 +647,7 @@ a == null;
 ({} == {});
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #63
 
@@ -650,7 +655,7 @@ a == null;
 ({} === {});
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #64
 
@@ -658,7 +663,7 @@ a == null;
  [] == [];
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #65
 
@@ -666,7 +671,7 @@ a == null;
  [1, 2, 3] === [1, 2, 3];
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #66
 
@@ -674,7 +679,7 @@ a == null;
  [1, 2, 3] == "1,2,3";
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #67
 
@@ -682,7 +687,7 @@ a == null;
  NaN == NaN;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #68
 
@@ -690,7 +695,7 @@ a == null;
  NaN === NaN;
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #68-2
 
@@ -698,7 +703,7 @@ a == null;
  (function noop (){}) == (function noop (){});
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #68-3
 
@@ -706,9 +711,9 @@ a == null;
  (function noop (){}).toString() == (function noop (){});
 ```
 
-> `true`
+> _`true`_
 
-##### Inequality Coercion. Write `true` or `false` for the following snippets
+##### 12. Inequality Coercion. Write `true` or `false` for the following snippets
 
 ###### Snippet #69
 
@@ -716,7 +721,7 @@ a == null;
  2 > "1";
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #70
 
@@ -724,7 +729,7 @@ a == null;
  "a" < "b";
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #71
 
@@ -732,7 +737,7 @@ a == null;
  3 < "a";
 ```
 
-> `false`
+> _`false`_
 
 ###### Snippet #72
 
@@ -740,7 +745,7 @@ a == null;
  "3" < "a";
 ```
 
-> `true`
+> _`true`_
 
 ###### Snippet #73
 
@@ -748,30 +753,30 @@ a == null;
  0 > NaN;
 ```
 
-> `false`
+> _`false`_
 
 #### Variables
 
 ---
 
-##### Are these valid JS indentifiers? Fill the table with `true` or `false`
+##### 13. Are these valid JS indentifiers? Fill the table with `true` or `false`
 
-| identifier | is valid? |
-|------------|-----------|
-| `Name` | `true` |
-| `0duck` | `false` |
-| `last.name` | `false` |
-| `$account` | `true` |
-| `_age` | `true` |
-| `-price` | `false` |
-| `car[123]` | `false` |
-| `for` | `false` |
+| identifier  | is valid? |
+|-------------|-----------|
+| `Name`      | _`true`_  |
+| `0duck`     | _`false`_ |
+| `last.name` | _`false`_ |
+| `$account`  | _`true`_  |
+| `_age`      | _`true`_  |
+| `-price`    | _`false`_ |
+| `car[123]`  | _`false`_ |
+| `for`       | _`false`_ |
 
-##### What's hoisting?
+##### 14. What's hoisting?
 
-> when a `var` declaration is conceptually "moved" to the top of its enclosing scope.
+> _when a `var` declaration is conceptually "moved" to the top of its enclosing scope._
 
-##### Hoisting. What would be the output for this snippet?
+##### 15. Hoisting. What would be the output for this snippet?
 
 ###### Snippet #74
 
@@ -793,15 +798,17 @@ var a;
 console.log(a);
 ```
 
-> 5
-> 10
+> _5_
+>
+> _10_
 
-##### What's the main difference between `var` and `let`?
+##### 16. What's the main difference between `var` and `let`?
 
-> `var` declares variables at function level
-> `let` declares variables at block level
+> _`var` declares variables at function level_
+>
+> _`let` declares variables at block level_
 
-##### Nested Scopes, `var` & `let`. Write the output for the following code snippets
+##### 17. Nested Scopes, `var` & `let`. Write the output for the following code snippets
 
 ###### Snippet #75
 
@@ -819,7 +826,7 @@ function foo () {
 foo();
 ```
 
-> 2
+> _2_
 
 ###### Snippet #76
 
@@ -837,7 +844,7 @@ function foo () {
 foo();
 ```
 
-> `Uncaught ReferenceError: b is not defined`
+> _`Uncaught ReferenceError: b is not defined`_
 
 ###### Snippet #77
 
@@ -851,7 +858,7 @@ foo();
 console.log(a);
 ```
 
-> `Uncaught ReferenceError: a is not defined`
+> _`Uncaught ReferenceError: a is not defined`_
 
 ###### Snippet #78
 
@@ -865,17 +872,17 @@ foo();
 console.log(a);
 ```
 
-> 20
+> _20_
 
 #### Section: Conditionals
 
 ---
 
-##### Write the code to log if a number is `even` or `odd` using the `if` statement, `switch` statement and the conditional operator `?:` aka ternay operator
+##### 18. Write the code to log if a number is `even` or `odd` using the `if` statement, `switch` statement and the conditional operator `?:` aka ternay operator
 
 _Clue_: you can determine if a number is `even` if the remainder of `n` divided by `2` is equal to `0`. Use the remainder operator `%`.
 
-> `if` solution:
+**`if`** Solution:
 
 ```js
 var n = 10;
@@ -887,7 +894,7 @@ if (n % 2 == 0) {
 }
 ```
 
-> `switch` solution:
+**`switch`** Solution:
 
 ```js
 var n = 10;
@@ -901,7 +908,7 @@ switch (n % 2) {
 }
 ```
 
-> `ternary` solution:
+**`ternary`** Solution:
 
 ```js
 var n = 10;
@@ -913,17 +920,17 @@ console.log(n % 2 == 0 ? "even" : "odd")
 
 ---
 
-##### In your own words, what's `use strict;`?
+##### 19. In your own words, what's `use strict;`?
 
-> Is a way to force code to be better written.
+> _Is a way to force code to be better written._
 >
-> Is a way to opt in to a restricted variant of JS.
+> _Is a way to opt in to a restricted variant of JS._
 >
-> Is a way to avoid bugs.
+> _Is a way to avoid bugs._
 >
-> Is the opposite of `sloppy mode`.
+> _Is the opposite of `sloppy mode`._
 
-##### Use Strict. Write the output for the following code snippets
+##### 20. Use Strict. Write the output for the following code snippets
 
 ###### Snippet #79
 
@@ -937,7 +944,7 @@ yummy();
 console.log(a);
 ```
 
-> 50
+> _50_
 
 ###### Snippet #80
 
@@ -953,23 +960,23 @@ yummy();
 console.log(a);
 ```
 
-> `Uncaught ReferenceError: a is not defined`
+> _`Uncaught ReferenceError: a is not defined`_
 
 #### Section: Functions As Values
 
 ---
 
-##### Complete the sentence
+##### 21. Complete the sentence
 
 Functions are the primary mechanism of _____ in JS.
 
 > _scope_
 
-##### Create a function `square` that takes one parameter `number` that returns the result of that `number` multiplied by itself. You need to perform this in `3` different ways
+##### 22. Create a function `square` that takes one parameter `number` that returns the result of that `number` multiplied by itself. You need to perform this in `3` different ways
 
-* by using `function declaration` syntax
+###### 22.1. by using `function declaration` syntax.
 
-> solution:
+Solution:
 
 ```js
 function square (number) {
@@ -977,9 +984,9 @@ function square (number) {
 }
 ```
 
-* by using `function expression with an anonymous function` syntax.
+###### 22.2. by using `function expression with an anonymous function` syntax.
 
-> solution:
+Solution:
 
 ```js
 var square = function (number) {
@@ -987,9 +994,9 @@ var square = function (number) {
 };
 ```
 
-* by using `function expression with a named function` syntax.
+###### 22.3 by using `function expression with a named function` syntax.
 
-> solution:
+Solution:
 
 ```js
 var square = function square (number) {
@@ -997,10 +1004,11 @@ var square = function square (number) {
 };
 ```
 
-##### What's an `IIFE`? Give an example
+##### 23. What's an `IIFE`? Give an example
 
-> an **I**mmediately **I**nvoked **F**unction **E**xpression
-> example:
+> _an **I**mmediately **I**nvoked **F**unction **E**xpression_
+>
+> _example:_
 
 ```js
 (function hello () {
@@ -1008,11 +1016,11 @@ var square = function square (number) {
 })();
 ```
 
-##### What's a `closure` in JS?
+##### 24. What's a `closure` in JS?
 
-> A _closure_ is the combination of a function and the lexical environment within which that function was declared.
+> _a `closure` is the combination of a function and the lexical environment within which that function was declared._
 
-##### Closure. What would be the output for the following code?
+##### 25. Closure. What would be the output for the following code?
 
 ###### Snippet #81
 
@@ -1029,15 +1037,15 @@ console.log(greetInSpanish("Pedro"));
 console.log(createHello('Hi')("Mike"));
 ```
 
-> "Hola Pedro!"
+> _"Hola Pedro!"_
 >
-> "Hi Mike!"
+> _"Hi Mike!"_
 
 #### Section: `this` Keyword
 
 ---
 
-##### `this`. Write the output for the following code
+##### 26. `this`. Write the output for the following code
 
 ###### Snippet #82
 
@@ -1063,19 +1071,19 @@ sayHello.call({ name: "Cocoa" });
 new sayHello();
 ```
 
-> "Hello Fluffy"
+> _"Hello Fluffy"_
 >
-> "Hello Buttercup"
+> _"Hello Buttercup"_
 >
-> "Hello Cocoa"
+> _"Hello Cocoa"_
 >
-> "Hello undefined"
+> _"Hello undefined"_
 
 #### Section: Prototypes
 
 ---
 
-##### Prototypes. Write the output for the following code
+##### 27. Prototypes. Write the output for the following code
 
 ###### Snippet #83
 
@@ -1107,78 +1115,52 @@ console.log(penguin.walk);
 console.log(penguin.swim);
 ```
 
-> "I'm walking!"
+> _"I'm walking!"_
 >
-> "undefined"
+> _"undefined"_
 >
-> "I'm flying!"
+> _"I'm flying!"_
 >
-> "I'm walking!"
+> _"I'm walking!"_
 >
-> "undefined"
+> _"undefined"_
 >
-> "I can't fly :("
+> _"I can't fly: :("_
 >
-> "I'm walking!"
+> _"I'm walking!"_
 >
-> "I'm swimming!"
+> _"I'm swimming!"_
 
 #### Section: Old & New
 
 ---
 
-##### What are the two main techniques to make older browsers work with newer features available in JS? Describe each
+##### 28. What are the two main techniques to make older browsers work with newer features available in JS? Describe each
 
-> __Polyfilling.__ A piece of code that provides the techonology that you expect the browser to provide natively.
+> _**polyfilling.** A piece of code that provides the techonology that you expect the browser to provide natively._
 >
-> __Transpiling.__ The process that converts your newer code into older code equivalents.
+> _**transpiling.** The process that converts your newer code into older code equivalents._
 
 #### Section: Non-JavaScript
 
 ---
 
-##### Is the `alert` method provided by the JS engine?
+##### 29. Is the `alert` method provided by the JS engine?
 
-> No, `alert` is provided by the browser.
+> _nope, `alert` is provided by the browser._
 
 #### Section: Challenges
 
 ---
 
-##### 2.1 Create a module in an `IIFE` stored in a variable `calculator` that exposes 4 methods: `plus`, `minus`, `times` and `dividedBy`. Each method should receive one parameter `firstNumber` and return a function that receives another parameter `secondNumber`. Every method should perform the operation it describes, for example, it's expected that `plus` adds the `firstNumber` to the `secondNumber`, `dividedBy` should divide the `secondNumber` by the `firstNumber` and so on. The idea is to have "stored" the `firstNumber` to perform the next operations with it
+##### 2.1 Create a module in an `IIFE` stored in a variable `calculator` that exposes 4 methods: `plus`, `minus`, `times` and `dividedBy`. Each method should receive one parameter `firstNumber` and return a function that receives another parameter `secondNumber`. Every method should perform the operation it describes, for example, it's expected that `plus` adds the `firstNumber` to the `secondNumber`, `dividedBy` should divide the `secondNumber` by the `firstNumber` and so on. The idea is to have "stored" the `firstNumber` to perform the next operations with it.
 
-_TIP:_ You can create a `script.js`file and test your code in the browser or node.js.
+_**TIP:**_ You can create a `script.js`file and test your code in the browser or node.js.
+
+Solution:
 
 ```js
 // create your calculator module here
-var calculator;
-
-// Do NOT touch this code
-
-const testCases = [
-  { type: "plus", n1: 3, n2: [1, 2, 3], expected: [4, 5, 6] },
-  { type: "minus", n1: 1, n2: [1, 0, -1], expected: [0, -1, -2] },
-  { type: "times", n1: 5, n2: [2, 5, 10], expected: [10, 25, 50] },
-  { type: "dividedBy", n1: 10, n2: [10, 100, 1000], expected: [1, 10, 100] }
-];
-
-const result = testCases.every(test => {
-  const operation = calculator[test.type](test.n1);
-  return test.n2.every((number, i) => {
-    const testPassed = operation(number) === test.expected[i];
-    if (!testPassed) {
-      console.log(`Expected: ${operation(number)} to be: ${test.expected[i]}. Operation: secondNumber(${number}) ${test.type} firstNumber(${test.n1})`);
-    }
-    return testPassed;
-  });
-});
-
-console.log("All tests passed: ", result);
-```
-
-> solution:
-
-```js
 var calculator = (function calc () {
   function plus (firstNumber) {
     return function addTo (secondNumber) {
@@ -1211,4 +1193,25 @@ var calculator = (function calc () {
     dividedBy: dividedBy
   };
 })();
+
+// Do NOT touch this code
+const testCases = [
+  { type: "plus", n1: 3, n2: [1, 2, 3], expected: [4, 5, 6] },
+  { type: "minus", n1: 1, n2: [1, 0, -1], expected: [0, -1, -2] },
+  { type: "times", n1: 5, n2: [2, 5, 10], expected: [10, 25, 50] },
+  { type: "dividedBy", n1: 10, n2: [10, 100, 1000], expected: [1, 10, 100] }
+];
+
+const result = testCases.every(test => {
+  const operation = calculator[test.type](test.n1);
+  return test.n2.every((number, i) => {
+    const testPassed = operation(number) === test.expected[i];
+    if (!testPassed) {
+      console.log(`Expected: ${operation(number)} to be: ${test.expected[i]}. Operation: secondNumber(${number}) ${test.type} firstNumber(${test.n1})`);
+    }
+    return testPassed;
+  });
+});
+
+console.log("All tests passed: ", result);
 ```
