@@ -1,14 +1,16 @@
 # You Don't Know JavaScript - Self Evaluation
 
-This repo contains some examples, exercises, quizes and personal notes for the [Book Series YDKJS by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS).
+This repo contains some examples, exercises, quizzes and personal notes for the [YDKJS Book Series by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS).
 
-Feel free to use these quizes to self-test your knowledge.
+Feel free to use these quizzes to self-test your learning.
 
-## Quizes
+## Quizzes
 
 ## 01 - Up & Going
 
 ### Chap1. Into Programming
+
+:pencil2: [quiz](ydkjs-01-up-and-going/quizzes/book1-chap1-quiz.md) :eyes: [answers](ydkjs-01-up-and-going/quizzes/book1-chap1-quiz.answers.md)
 
 ### Chap2. Into JavaScript
 
