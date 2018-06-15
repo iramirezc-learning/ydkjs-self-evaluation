@@ -2,7 +2,7 @@
 
 ## Chapter 2. Lexical Scope
 
-### Answer Sheet
+### Self-Evaluation
 
 #### Section: Lex-time
 
@@ -10,13 +10,11 @@
 
 ##### 1. What are the two predominant models for how Scope works used by the majority of programming languages?
 
-> _lexical scope_
->
-> _dynamic scope_
+> _your answer here_
 
 ##### 2. Which is the `Scope` model that JavaScript employs?
 
-> _lexical scope_
+> _your answer here_
 
 ##### 3. How many `Scopes` can you identify in the following snippet, and what would be the output?
 
@@ -38,21 +36,11 @@ var result = (function (a) {
 console.log(result);
 ```
 
-> _There are 4 `Scopes`:_
->
-> _global scope_
->
-> _- anonymous function (iife) scope_
->
-> _-- foo scope_
->
-> _--- bar scope_
->
-> _Output: `10`_
+> _your answer here_
 
 ##### 4. What is `shadowing`?
 
-> _when an identifier of an inner scope `shadows` an identifier of an outer scope._
+> _your answer here_
 
 ##### 5. Look Up in nested scopes. What would be the output for the following snippets?
 
@@ -77,7 +65,7 @@ function foo(name) {
 console.log(foo(name));
 ```
 
-> _"Doe"_
+> _your answer here_
 
 ###### Snippet #3
 
@@ -87,7 +75,7 @@ var a = 2;
 console.log(window.a);
 ```
 
-> _`2`_
+> _your answer here_
 
 ###### Snippet #4
 
@@ -99,7 +87,7 @@ function foo() {
 console.log(foo.a);
 ```
 
-> _`undefined`_
+> _your answer here_
 
 ###### Snippet #5
 
@@ -113,7 +101,7 @@ foo.a = 4;
 console.log(foo.a);
 ```
 
-> _`4`_
+> _your answer here_
 
 ###### Snippet #6
 
@@ -130,9 +118,7 @@ function foo() {
 foo();
 ```
 
-> _`10`_
->
-> _`10`_
+> _your answer here_
 
 #### Section: Cheating Lexical
 
@@ -153,7 +139,7 @@ function foo(str) {
 foo("var z = 4;");
 ```
 
-> _ReferenceError: z is not defined_
+> _your answer here_
 
 ###### Snippet #8
 
@@ -166,7 +152,7 @@ function foo(str) {
 foo("var x = 5;");
 ```
 
-> _`5`_
+> _your answer here_
 
 ###### Snippet #9
 
@@ -180,7 +166,7 @@ foo("y = 7;");
 console.log(y);
 ```
 
-> _`7`_
+> _your answer here_
 
 ###### Snippet #10
 
@@ -194,7 +180,7 @@ foo("var y = 7;");
 console.log(y);
 ```
 
-> _ReferenceError: y is not defined_
+> _your answer here_
 
 ##### 7. `with`. Write the output for the following snippets:
 
@@ -214,7 +200,7 @@ foo(obj);
 console.log(obj.a);
 ```
 
-> _`5`_
+> _your answer here_
 
 ###### Snippet #12
 
@@ -232,7 +218,7 @@ foo(obj);
 console.log(obj.b);
 ```
 
-> _`undefined`_
+> _your answer here_
 
 ###### Snippet #13
 
@@ -250,7 +236,7 @@ foo(obj);
 console.log(b);
 ```
 
-> _`5`_
+> _your answer here_
 
 ###### Snippet #14
 
@@ -268,7 +254,7 @@ foo(obj);
 console.log(a);
 ```
 
-> _`ReferenceError: a is not defined`_
+> _your answer here_
 
 ###### Snippet #15
 
@@ -285,7 +271,7 @@ var obj = { b: 2 };
 foo(obj);
 ```
 
-> _`undefined`_
+> _your answer here_
 
 ###### Snippet #16
 
@@ -303,7 +289,7 @@ var obj = { b: 2 };
 foo(obj);
 ```
 
-> _`3`_
+> _your answer here_
 
 ###### Snippet #17
 
@@ -321,7 +307,7 @@ foo(obj);
 console.log(b);
 ```
 
-> _`ReferenceError: b is not defined`_
+> _your answer here_
 
 ###### Snippet #18
 
@@ -339,7 +325,7 @@ foo(obj);
 console.log(b);
 ```
 
-> _`ReferenceError: b is not defined`_
+> _your answer here_
 
 ###### Snippet #19
 
@@ -359,12 +345,12 @@ foo(obj);
 console.log(b);
 ```
 
-> _`SyntaxError: Strict mode code may not include a with statement`_
+> _your answer here_
 
 ##### 8. Why should you avoid using both `eval` and `with` in your code?
 
-> _**code will run slower** no matter how smart the Engine is, because these mechanisms defeat the Engine's ability to perform compile-time optimizations._
+> _your answer here_
 
 ##### 9. What's the difference between `Lexical Scope` and `Scope`?
 
-> _none. both are the same, actually is more proper to call it `Lexical Scope`_
+> _your answer here_
