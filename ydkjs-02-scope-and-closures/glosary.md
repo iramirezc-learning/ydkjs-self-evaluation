@@ -1,8 +1,8 @@
 # Glosary: YDKJS - Scope & Closures
 
-List of terms and words I don't know
+List of terms and words I didn't know.
 
-## Chapter 1. What is Scope?
+## Chapter 1: What is Scope?
 
 ### begets
 
@@ -86,7 +86,35 @@ Example:
 
 > _Being slightly **glib** for a moment..._
 
+## Chapter 2: Lexical Scope
+
+### frowned upon
+
+> furrow one's brow in an expression of disapproval, displeasure, or concentration.
+
+Translation:
+
+> mal visto
+
+Example:
+
+> _These practices are **frowned upon**._
+
 ---
+
+### boil down
+
+> reduce
+
+Translation:
+
+> abreviar, reducirse de
+
+Example:
+
+> _Some of these (optimizations) **boil down** to being able to essentially statically analyze the code as it lexes._
+
+## Chapter 3: Function vs. Block Scope
 
 ### word here
 
@@ -114,7 +142,7 @@ Example:
 
 > _example here_
 
----
+## Chapter 4: Hoisting
 
 ### word here
 
@@ -142,7 +170,7 @@ Example:
 
 > _example here_
 
----
+## Chapter 5: Scope Closure
 
 ### word here
 
@@ -157,3 +185,15 @@ Example:
 > _example here_
 
 ---
+
+### word here
+
+> word definition here
+
+Translation:
+
+> translation here
+
+Example:
+
+> _example here_
