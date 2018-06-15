@@ -1,1 +1,1 @@
-# Summary - Chapter 2. Into JavaScript
+# Summary - Chapter 2: Into JavaScript

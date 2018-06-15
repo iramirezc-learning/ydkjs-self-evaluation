@@ -1,4 +1,4 @@
-# Summary - Chapter 1. Into Programming
+# Summary - Chapter 1: Into Programming
 
 ## Code Comments
 
