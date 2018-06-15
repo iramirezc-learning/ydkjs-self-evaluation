@@ -56,11 +56,11 @@ Write the code to:
 
 ###### 10.1. print `a` in the __console__
 
-> `// your code here`
+> _`// your code here`_
 
 ###### 10.2. show `a` in a __popup__
 
-> `// your code here`
+> _`// your code here`_
 
 ##### 11. Input Exercises.
 

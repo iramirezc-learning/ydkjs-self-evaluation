@@ -10,19 +10,19 @@
 
 ##### 1. Name the 7 built-in types available in JavaScript.
 
-> `undefined`
+> _`undefined`_
 >
-> `object`
+> _`object`_
 >
-> `boolean`
+> _`boolean`_
 >
-> `number`
+> _`number`_
 >
-> `string`
+> _`string`_
 >
-> `symbol`
+> _`symbol`_
 >
-> `function`
+> _`function`_
 
 ##### 2. Name the two ways to access object properties.
 
@@ -171,7 +171,7 @@ var index = "c";
 console.log({ a: 1, b: 2, c: 3 }[index]);
 ```
 
-> _3_
+> _`3`_
 
 ###### Snippet #17
 
@@ -179,7 +179,7 @@ console.log({ a: 1, b: 2, c: 3 }[index]);
 console.log({ x: 100, y: 200 }.x);
 ```
 
-> _100_
+> _`100`_
 
 ###### Snippet #18
 
@@ -798,9 +798,9 @@ var a;
 console.log(a);
 ```
 
-> _5_
+> _`5`_
 >
-> _10_
+> _`10`_
 
 ##### 16. What's the main difference between `var` and `let`?
 
@@ -826,7 +826,7 @@ function foo () {
 foo();
 ```
 
-> _2_
+> _`2`_
 
 ###### Snippet #76
 
@@ -872,7 +872,7 @@ foo();
 console.log(a);
 ```
 
-> _20_
+> _`20`_
 
 #### Section: Conditionals
 
@@ -922,13 +922,13 @@ console.log(n % 2 == 0 ? "even" : "odd")
 
 ##### 19. In your own words, what's `use strict;`?
 
-> _Is a way to force code to be better written._
+> _is a way to force code to be better written._
 >
-> _Is a way to opt in to a restricted variant of JS._
+> _is a way to opt in to a restricted variant of JS._
 >
-> _Is a way to avoid bugs._
+> _is a way to avoid bugs._
 >
-> _Is the opposite of `sloppy mode`._
+> _is the opposite of `sloppy mode`._
 
 ##### 20. Use Strict. Write the output for the following code snippets
 
@@ -944,7 +944,7 @@ yummy();
 console.log(a);
 ```
 
-> _50_
+> _`50`_
 
 ###### Snippet #80
 
@@ -970,7 +970,7 @@ console.log(a);
 
 Functions are the primary mechanism of _____ in JS.
 
-> _scope_
+> _`scope`_
 
 ##### 22. Create a function `square` that takes one parameter `number` that returns the result of that `number` multiplied by itself. You need to perform this in `3` different ways
 

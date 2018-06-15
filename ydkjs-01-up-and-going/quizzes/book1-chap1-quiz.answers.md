@@ -74,11 +74,11 @@ Write the code to:
 
 ###### 10.1. print `a` in the __console__
 
-> `console.log(a);`
+> _`console.log(a);`_
 
 ###### 10.2. show `a` in a __popup__
 
-> `alert(a);`
+> _`alert(a);`_
 
 ##### 11. Input Exercises.
 
@@ -323,11 +323,11 @@ outer();
 
 ###### 30.1. Does the `inner` function have access to the `outer` function scope?
 
-> `true`
+> _`true`_
 
 ###### 30.2. Does the `outer` function have access to the `inner` function scope?
 
-> `false`
+> _`false`_
 
 #### Section: Challenges
 
