@@ -24,7 +24,11 @@ Feel free to use these quizzes to self-test your learning.
 
 ### Chap1. What is Scope?
 
+:pencil2: [quiz](ydkjs-02-scope-and-closures/quizzes/book2-chap1-quiz.md) :eyes: [answers](ydkjs-02-scope-and-closures/quizzes/book2-chap1-quiz.answers.md)
+
 ### Chap2. Lexical Scope
+
+:pencil2: [quiz](ydkjs-02-scope-and-closures/quizzes/book2-chap2-quiz.md) :eyes: [answers](ydkjs-02-scope-and-closures/quizzes/book2-chap2-quiz.answers.md)
 
 ### Chap3. Function vs. Block Scope
 
