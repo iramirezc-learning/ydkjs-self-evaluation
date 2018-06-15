@@ -63,7 +63,7 @@ __retreat__
 
 > retirarse, retirada
 
-## __Chapter 1.__ Into Programming
+## __Chapter 1:__ Into Programming
 
 __lens__
 
@@ -83,7 +83,7 @@ __pun__
 
 _Example:_  instead of repeatedly repeating yourself repetitiously (pun intended!)
 
-## __Chapter 2.__ Into JavaScript
+## __Chapter 2:__ Into JavaScript
 
 __advocate__
 
@@ -117,7 +117,7 @@ __convoluted__
 
 > extremely complex and difficult to follow
 
-## __Chapter 3.__ Into YDKJS
+## __Chapter 3:__ Into YDKJS
 
 __miscue__
 

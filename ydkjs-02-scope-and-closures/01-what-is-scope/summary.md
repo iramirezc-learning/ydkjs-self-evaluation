@@ -1,4 +1,4 @@
-# Summary - Chapter 1. What's Scope?
+# Summary - Chapter 1: What's Scope?
 
 JavaScript is __compiled__, no argue.
 

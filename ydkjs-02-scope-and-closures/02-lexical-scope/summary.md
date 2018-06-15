@@ -1,4 +1,4 @@
-# Summary - Chapter 2. Lexical Scope
+# Summary - Chapter 2: Lexical Scope
 
 Yet another definition for `Scope`
 
