@@ -10,15 +10,15 @@
 
 ##### 1. What are the three typical steps in a traditional compiled-language process?
 
-> your answer here
+> _your answer here_
 
 ##### 2. What does `AST` stands for?
 
-> your answer here
+> _your answer here_
 
 ##### 3. So, is JS `interpreted` or `compiled`? Explain why
 
-> your answer here
+> _your answer here_
 
 #### Section: Understanding Scope
 
@@ -26,15 +26,15 @@
 
 ##### 4. Once again: What's Scope?
 
-> your answer here
+> _your answer here_
 
 ##### 5. What are the main "characters" involved in the compilation process?
 
-> your answer here
+> _your answer here_
 
 ##### 6. Describe both the `LHS` and `RHS` look-up terms.
 
-> your answer here
+> _your answer here_
 
 ##### 7. Identify all the `LHS` and `RHS` look-ups for the following code snippet:
 
@@ -52,13 +52,13 @@ function cube(number) {
 const result = cube(3);
 ```
 
-> Total `LHS` look-ups:
+> _total `LHS` look-ups:_
 >
-> your answer here
+> _your answer here_
 >
-> Total `RHS` look-ups:
+> _total `RHS` look-ups:_
 >
-> your answer here
+> _your answer here_
 
 #### Section: Nested Scope
 
@@ -66,7 +66,7 @@ const result = cube(3);
 
 ##### 8. What are the rules for traversing a nested Scope?
 
-> your answer here
+> _your answer here_
 
 ##### 9. What would be the output for the following snippets?
 
@@ -94,7 +94,7 @@ var g;
 console.log(foo(15));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #3
 
@@ -116,7 +116,7 @@ console.log(foo(15));
 console.log(w);
 ```
 
-> your answer here
+> _your answer here_
 
 #### Section: Errors
 
@@ -124,11 +124,11 @@ console.log(w);
 
 ##### 10. When does a `ReferenceError` happen?
 
-> your answer here
+> _your answer here_
 
 ##### 11. When does a `TypeError` happen?
 
-> your answer here
+> _your answer here_
 
 ##### 12. Write the output for the following snippets:
 
@@ -143,7 +143,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #5
 
@@ -156,7 +156,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #6
 
@@ -169,7 +169,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #7
 
@@ -184,7 +184,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #8
 
@@ -199,7 +199,7 @@ bar = 5;
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #9
 
@@ -214,7 +214,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #10
 
@@ -229,7 +229,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #11
 
@@ -244,7 +244,7 @@ console.log(bar(3));
 var bar = 3;
 ```
 
-> your answer here
+> _your answer here_
 
 ###### Snippet #12
 
@@ -255,4 +255,4 @@ var bar = 'a';
 console.log(bar);
 ```
 
-> your answer here
+> _your answer here_

@@ -10,19 +10,19 @@
 
 ##### 1. What are the three typical steps in a traditional compiled-language process?
 
-> 1. Tokenizing / Lexing
+> _1. Tokenizing / Lexing_
 >
-> 2. Parsing
+> _2. Parsing_
 >
-> 3. Code-Generation
+> _3. Code-Generation_
 
 ##### 2. What does `AST` stands for?
 
-> **A**bstract **S**yntax **T**ree
+> _**A**bstract **S**yntax **T**ree_
 
 ##### 3. So, is JS `interpreted` or `compiled`? Explain why
 
-> JS is compiled as compilation happens just before (microseconds) the code is executed.
+> _JS is compiled as compilation happens just before (microseconds) the code is executed._
 
 #### Section: Understanding Scope
 
@@ -30,21 +30,21 @@
 
 ##### 4. Once again: What's Scope?
 
-> A well-defined set of rules for storing and finding variables (identifiers) in some location.
+> _a well-defined set of rules for storing and finding variables (identifiers) in some location._
 
 ##### 5. What are the main "characters" involved in the compilation process?
 
-> Engine
+> _engine_
 >
-> Compiler
+> _compiler_
 >
-> Scope
+> _scope_
 
 ##### 6. Describe both the `LHS` and `RHS` look-up terms.
 
-> `LHS` Left-hand Side look-up. Process of looking for a variable (target) to **assign** it a value.
+> _`LHS` Left-hand Side look-up. Process of looking for a variable (target) to **assign** it a value._
 >
-> `RHS` Right-hand Side look-up. Process of **retrieving** the value of a variable (source).
+> _`RHS` Right-hand Side look-up. Process of **retrieving** the value of a variable (source)._
 
 ##### 7. Identify all the `LHS` and `RHS` look-ups for the following code snippet:
 
@@ -62,28 +62,28 @@ function cube(number) {
 const result = cube(3);
 ```
 
-> Total `LHS` look-ups: 3
+> _total `LHS` look-ups: 3_
 >
-> * assignment to `result = ...`
+> * _assignment to `result = ...`_
 >
-> * implicit param assignment `number = 3` in fuction `cube(number)`
+> * _implicit param assignment `number = 3` in fuction `cube(number)`_
 >
-> * implicit param assignment `number = 3` in fuction `square(number)`
+> * _implicit param assignment `number = 3` in fuction `square(number)`_
 >
-> Total `RHS` look-ups: 6
+> _total `RHS` look-ups: 6_
 >
-> * `cube(3)` function execution
+> * _`cube(3)` function execution_
 >
 >
-> * inside `cube` function > retrieve the value for `number` in `number *`
+> * _inside `cube` function > retrieve the value for `number` in `number *`_
 >
-> * inside `cube` function > execution of `square(...)`
+> * _inside `cube` function > execution of `square(...)`_
 >
-> * inside `cube` function > retrieve the value of argument `number` in `square(number)`
+> * _inside `cube` function > retrieve the value of argument `number` in `square(number)`_
 >
-> * inside `square` function > retrieve value for `number` in `number *`
+> * _inside `square` function > retrieve value for `number` in `number *`_
 >
-> * inside `square` function > retrieve value for `number` in `* number`
+> * _inside `square` function > retrieve value for `number` in `* number`_
 
 #### Section: Nested Scope
 
@@ -91,7 +91,7 @@ const result = cube(3);
 
 ##### 8. What are the rules for traversing a nested Scope?
 
-> Engine starts at the currently executing Scope, then looks for a variable there, if not found, keeps going up one level an so on util it reaches the outermost **global** scope and stops whether it finds the variable or not.
+> _engine starts at the currently executing Scope, then looks for a variable there, if not found, keeps going up one level an so on util it reaches the outermost **global** scope and stops whether it finds the variable or not._
 
 ##### 9. What would be the output for the following snippets?
 
@@ -119,7 +119,7 @@ var g;
 console.log(foo(15));
 ```
 
-> 50
+> _`50`_
 
 ###### Snippet #3
 
@@ -141,7 +141,7 @@ console.log(foo(15));
 console.log(w);
 ```
 
-> 64
+> _`64`_
 
 #### Section: Errors
 
@@ -149,11 +149,11 @@ console.log(w);
 
 ##### 10. When does a `ReferenceError` happen?
 
-> When a variable couldn't be found in any of the Scopes.
+> _when a variable couldn't be found in any of the Scopes._
 
 ##### 11. When does a `TypeError` happen?
 
-> When a variable is found but an illegal/impossible action is attempted against its result.
+> _when a variable is found but an illegal/impossible action is attempted against its result._
 
 ##### 12. Write the output for the following snippets:
 
@@ -168,7 +168,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> NaN
+> _`NaN`_
 
 ###### Snippet #5
 
@@ -181,7 +181,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> ReferenceError: m is not defined
+> _`ReferenceError: m is not defined`_
 
 ###### Snippet #6
 
@@ -194,7 +194,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> 6
+> _`6`_
 
 ###### Snippet #7
 
@@ -209,7 +209,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> ReferenceError: m is not defined
+> _`ReferenceError: m is not defined`_
 
 ###### Snippet #8
 
@@ -224,7 +224,7 @@ bar = 5;
 console.log(bar(3));
 ```
 
-> TypeError: bar is not a function
+> _`TypeError: bar is not a function`_
 
 ###### Snippet #9
 
@@ -239,7 +239,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> 6
+> _`6`_
 
 ###### Snippet #10
 
@@ -254,7 +254,7 @@ function bar(n) {
 console.log(bar(3));
 ```
 
-> TypeError: bar is not a function
+> _`TypeError: bar is not a function`_
 
 ###### Snippet #11
 
@@ -269,7 +269,7 @@ console.log(bar(3));
 var bar = 3;
 ```
 
-> 6
+> _`6`_
 
 ###### Snippet #12
 
@@ -280,4 +280,4 @@ var bar = 'a';
 console.log(bar);
 ```
 
-> "a"
+> _"a"_
