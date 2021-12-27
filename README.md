@@ -32,6 +32,12 @@ Feel free to use these quizzes to self-test your learning.
 
 ### Chap3. Function vs. Block Scope
 
+> TODO
+
 ### Chap4. Hoisting
 
+> TODO
+
 ### Chap5. Scope Closures
+
+> TODO
